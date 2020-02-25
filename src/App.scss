@@ -1,0 +1,40 @@
+@import "../src/assets/scss/index.scss";
+
+body {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.App {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  background: $app-background;
+  color: $app-color;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+
+  &.MuiContainer-root {
+    width: 80%;
+    padding: 20px 0;
+  }
+}
+
+.table {
+  &.MuiTableContainer-root {
+    width: 80%;
+  }
+}
